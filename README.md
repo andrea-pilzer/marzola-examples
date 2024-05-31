@@ -32,6 +32,7 @@ Performance tricks:
 As an excercise
 - try to do a scalability test (this is strong scalability, same problem and more compute to solve it), run this code with 1,2,4,8 GPUs, how does the execution times change?
 - after you are done, try to do the same with the data stored on your `$HOME` folder, how does the training time change?
+
 Keep in mind the Cifar-10 dataset is small so you will never be able to saturate the compute power of the A100 GPUs.
 If you want to see the code at work on more challenging datasets you can use as a starting point Cifar-100, and then move to bigger ones.
 
